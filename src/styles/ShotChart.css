@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+#shot-chart {
+    width: 100%;
+    margin: auto;
+}
+
+/*court styles*/
+#shot-chart-countainer {
+    margin-top: -22%;
+    margin-bottom: 5%;
+}
+
+@media (min-width: 50em) {
+    #shot-chart-countainer {
+        margin-top: -15%;
+    }
+}
+@media (min-width: 55em) {
+    #shot-chart-countainer {
+        margin-top: -10%;
+    }
+}
+@media (min-width: 78em) {
+    #shot-chart-countainer {
+        padding-left: 1em;
+        margin-left: 33%;
+    }
+}
+
+#shot-chart-countainer .shot-chart {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 78em) {
+    #shot-chart-countainer .shot-chart {
+        margin: 0;
+    }
+}
+
+svg {
+    stroke-width: .2;
+}
+
+svg text {
+    font-size: 0.2em;
+}
+
+svg text.legend-text {
+    font-size: 0.1em;
+}
+
+svg rect {
+    stroke: black;
+    fill: none;
+}
+
+svg line {
+    stroke: black;
+    fill: none;
+}
+
+/*shot styles*/
+svg circle {
+    stroke: black;
+    fill: none;
+}
+
+svg circle.shot.make {
+    fill: green;
+    stroke: white;
+    stroke-width: 0.05;
+}
+
+svg circle.shot.miss {
+    fill: red;
+    stroke: white;
+    stroke-width: 0.05;
+}
+
+path {
+    stroke: white;
+    stroke-width: 0.05;
+}
+
+path.shot {
+    fill: none;
+    stroke: white;
+    stroke-width: 0.05;
+}
+
+/*shot tooltips*/
+
+.d3-tip {
+    line-height: 1;
+    font-weight: lighter;
+    padding: 12px;
+    background: #006886;
+    color: #fff;
+    border-radius: 2px;
+    pointer-events: none;
+}
+
+.d3-tip:after {
+    box-sizing: border-box;
+    display: inline;
+    font-size: 10px;
+    width: 100%;
+    line-height: 1;
+    color: #006886;
+    position: absolute;
+    pointer-events: none;
+}
+
+.d3-tip.n:after {
+    content: "▼";
+    margin: -1px 0 0 0;
+    top: 100%;
+    left: 0;
+    text-align: center;
+}
+
+.d3-tip.e:after {
+    content: "◀";
+    margin: -4px 0 0 0;
+    top: 50%;
+    left: -8px;
+}
+
+.d3-tip.s:after {
+    content: "▲";
+    margin: 0 0 1px 0;
+    top: -8px;
+    left: 0;
+    text-align: center;
+}
+
+.d3-tip.w:after {
+    content: "▶";
+    margin: -4px 0 0 -1px;
+    top: 50%;
+    left: 100%;
+}
