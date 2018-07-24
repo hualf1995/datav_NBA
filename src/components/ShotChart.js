@@ -8,6 +8,7 @@ import PropTypes from 'prop-types';
 window.d3_hexbin = {hexbin: hexbin};
 
 export class ShotChart extends Component {
+  //props object type check
   static propTypes = {
     playerId: PropTypes.number.isRequired,
   }
