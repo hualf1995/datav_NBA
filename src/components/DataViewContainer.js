@@ -40,7 +40,7 @@ export class DataViewContainer extends React.Component{
                          minCount={this.state.minCount}
             /> : null
           }
-          <Row>
+          <Row className='chart-type-radio'>
             <Col span={12} offset={3}>
               <RadioGroup onChange={this.onChartTypeChange}
                           value={this.state.chartType}>

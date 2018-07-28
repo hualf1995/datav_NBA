@@ -7,6 +7,7 @@ export class CountSlider extends React.Component {
   }
 
   onChange = (value) => {
+    value = Number(value) || 2;
     this.setState({
       inputValue: value,
     });
@@ -17,12 +18,12 @@ export class CountSlider extends React.Component {
     return (
       <Row>
         <Col span={12} offset='4'>
-          <Slider min={1} max={20} onChange={this.onChange} value={this.state.inputValue} />
+          <Slider min={1} max={15} onChange={this.onChange} value={this.state.inputValue} />
         </Col>
         <Col span={4}>
           <InputNumber
             min={1}
-            max={20}
+            max={15}
             style={{ marginLeft: 16 }}
             value={this.state.inputValue}
             onChange={this.onChange}

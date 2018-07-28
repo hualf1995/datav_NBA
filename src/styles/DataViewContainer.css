@@ -1,4 +1,18 @@
+/*.data-view {*/
+    /*height: 500px;*/
+    /*width: 550px;*/
+/*}*/
+
 .data-view {
-    height: 500px;
+    overflow: hidden;
+}
+
+.filters {
     width: 550px;
+    margin: auto;
+}
+
+.chart-type-radio {
+    margin-top: 20px;
+    padding-left: 7px;
 }
