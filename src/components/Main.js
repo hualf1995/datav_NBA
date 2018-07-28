@@ -1,16 +1,20 @@
 import React, { Component } from 'react';
-import { DataViewContainer } from './DataViewContainer'
-import { Profile } from './Profile'
+import { DataViewContainer } from './DataViewContainer';
+import { Profile } from './Profile';
+import { SearchBar } from './SearchBar'
 import nba from 'nba';
 
 export class Main extends Component {
   state = {
-    playerId: nba.findPlayer('Lebron James').playerId,
     playerInfo: {},
   }
 
   componentDidMount() {
-    nba.stats.playerInfo({ PlayerID: this.state.playerId }).then((info) => {
+    this.loadPlayerInfo('Lebron James')
+  }
+
+  loadPlayerInfo = (playerName) => {
+    nba.stats.playerInfo({ PlayerID: nba.findPlayer(playerName).playerId }).then((info) => {
       const playerInfo = Object.assign(info.commonPlayerInfo[0], info.playerHeadlineStats[0]);
       console.log(playerInfo);
       this.setState({
@@ -19,11 +23,18 @@ export class Main extends Component {
     });
   }
 
+  handleSelectPlayer = (name) => {
+    this.loadPlayerInfo(name);
+  }
+
   render() {
     return (
       <div className='main'>
-        <Profile playerId={this.state.playerId} playerInfo={this.state.playerInfo}/>
-        <DataViewContainer playerId={this.state.playerId}/>
+        <SearchBar handleSelectPlayer={this.handleSelectPlayer}/>
+        <div className='player'>
+          <Profile playerInfo={this.state.playerInfo}/>
+          <DataViewContainer playerId={this.state.playerInfo.playerId}/>
+        </div>
       </div>
     );
   }

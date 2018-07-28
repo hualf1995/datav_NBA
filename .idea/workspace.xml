@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64da4adf-864c-44e0-bd44-972090b6e731" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/CountSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CountSlider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DataViewContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DataViewContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ShotChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ShotChart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SearchBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/SearchBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Main.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,38 +21,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DataViewContainer.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/DataViewContainer.js">
+      <file leaf-file-name="Main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="38" column="86" selection-start-line="38" selection-start-column="86" selection-end-line="38" selection-end-column="86" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CountSlider.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/CountSlider.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShotChart.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/ShotChart.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="31" column="117" selection-start-line="31" selection-start-column="117" selection-end-line="31" selection-end-column="117" />
+            <state relative-caret-position="496">
+              <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchBar.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/SearchBar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchBar.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles/SearchBar.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -68,8 +68,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -88,14 +88,16 @@
         <option value="$PROJECT_DIR$/src/constants.js" />
         <option value="$PROJECT_DIR$/src/components/Profile.js" />
         <option value="$PROJECT_DIR$/src/styles/Profile.css" />
-        <option value="$PROJECT_DIR$/src/components/Main.js" />
         <option value="$PROJECT_DIR$/src/styles/DataViewContainer.css" />
-        <option value="$PROJECT_DIR$/src/styles/Main.css" />
-        <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/styles/ShotChart.css" />
         <option value="$PROJECT_DIR$/src/components/ShotChart.js" />
         <option value="$PROJECT_DIR$/src/components/CountSlider.js" />
         <option value="$PROJECT_DIR$/src/components/DataViewContainer.js" />
+        <option value="$PROJECT_DIR$/src/styles/Main.css" />
+        <option value="$PROJECT_DIR$/src/styles/SearchBar.css" />
+        <option value="$PROJECT_DIR$/src/index.css" />
+        <option value="$PROJECT_DIR$/src/components/Main.js" />
+        <option value="$PROJECT_DIR$/src/components/SearchBar.js" />
       </list>
     </option>
   </component>
@@ -197,12 +199,12 @@
       <workItem from="1532441083275" duration="1772000" />
       <workItem from="1532529848697" duration="1953000" />
       <workItem from="1532615545596" duration="1723000" />
-      <workItem from="1532743002588" duration="5117000" />
+      <workItem from="1532743002588" duration="9273000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20250000" />
+    <option name="totallyTimeSpent" value="24406000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="825" height="900" extended-state="6" />
@@ -216,7 +218,7 @@
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.16969697" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.18787879" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -388,44 +390,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Profile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="48" column="3" lean-forward="true" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/Profile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/Main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/ShotChart.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -433,10 +397,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/DataViewContainer.css">
+    <entry file="file://$PROJECT_DIR$/src/styles/Profile.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="604">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/Main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -450,20 +428,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CountSlider.js">
+    <entry file="file://$PROJECT_DIR$/src/components/DataViewContainer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        <state relative-caret-position="601">
+          <caret line="38" column="88" lean-forward="true" selection-start-line="38" selection-start-column="88" selection-end-line="38" selection-end-column="88" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/DataViewContainer.js">
+    <entry file="file://$PROJECT_DIR$/src/components/CountSlider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="38" column="86" selection-start-line="38" selection-start-column="86" selection-end-line="38" selection-end-column="86" />
+        <state relative-caret-position="57">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/DataViewContainer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/SearchBar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/SearchBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
