@@ -2,7 +2,9 @@
 @import "./styles/TopNavBar.css";
 @import "./styles/ShotChart.css";
 @import "./styles/Profile.css";
+@import "./styles/DataViewContainer.css";
 @import "./styles/Main.css";
+@import "~antd/dist/antd.css";
 
 body {
   margin: 0;
